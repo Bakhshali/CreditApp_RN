@@ -69,7 +69,7 @@ const Accept = ({ navigation }: any) => {
               borderRadius: 10,
             }}
           >
-            <TouchableOpacity onPress={() => navigation.navigate('OtpScreen')}>
+            <TouchableOpacity onPress={() => navigation.navigate('ConfirmScreen')}>
               <Text style={{ fontSize: 18, textAlign: 'center', color: 'white' }}>
                 Təsdiq et
               </Text>
